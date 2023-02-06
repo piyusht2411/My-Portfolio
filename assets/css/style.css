@@ -952,3 +952,26 @@ section {
     padding-right: 20px 15px;
   }
 }
+@media screen and (max-width: 480px) {
+#hero{
+  width: 101%;
+  height: 102vh;
+  background: url("../img/my.jpg") top center;
+  background-size: cover;
+}
+#hero h1 {
+  font-size: 25px;
+  line-height: 39px;
+  
+  margin: 150px -10px 2px 119px;
+
+}
+#hero p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 21px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 100px;
+}
+
+}
